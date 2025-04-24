@@ -1,0 +1,1 @@
+# Conv1D → ReLU → MaxPooling → Flatten → Dense 구조

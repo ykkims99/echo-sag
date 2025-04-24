@@ -1,0 +1,6 @@
+{
+  "accuracy": 98.1,
+  "latency_ms": 92,
+  "sample_count": 1042,
+  "supported_devices": ["Raspberry Pi CM4", "ESP32", "Jetson Nano", "BeagleBone", "Coral Edge TPU"]
+}
