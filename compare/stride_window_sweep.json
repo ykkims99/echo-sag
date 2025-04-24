@@ -1,0 +1,23 @@
+{
+  "experiments": [
+    {
+      "window_size": 150,
+      "stride": 25,
+      "accuracy": 94.3,
+      "inference_time_ms": 88.2
+    },
+    {
+      "window_size": 200,
+      "stride": 50,
+      "accuracy": 98.1,
+      "inference_time_ms": 91.8
+    },
+    {
+      "window_size": 250,
+      "stride": 100,
+      "accuracy": 97.6,
+      "inference_time_ms": 95.3
+    }
+  ],
+  "notes": "Sweep test on window size and stride effect on accuracy and inference speed. Measured on Raspberry Pi CM4 using TFLite model (82KB)."
+}
